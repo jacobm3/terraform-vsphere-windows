@@ -18,7 +18,7 @@ resource "vsphere_virtual_machine" "vm" {
 
   num_cpus                    = var.num_cpus
   memory                      = var.memory
-  guest_id                    = "windows7Server64Guest"
+  guest_id                    = "windows8Server64Guest"
   wait_for_guest_net_routable = false
   wait_for_guest_net_timeout  = 1
 
