@@ -25,10 +25,12 @@ data "vsphere_resource_pool" "pool" {
   datacenter_id = data.vsphere_datacenter.dc.id
 }
 
+/*
 module "tags" {
   source  = "./modules/tags"
   project = var.project
 }
+*/
 
 module "vm" {
   source           = "./modules/vm"

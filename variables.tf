@@ -25,3 +25,9 @@ variable "num_cpus" {
 
 variable "memory" {
 }
+
+variable "username" {
+}
+
+variable "password" {
+}
